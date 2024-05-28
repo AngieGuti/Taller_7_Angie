@@ -38,7 +38,7 @@ public class PanelSuperior extends JPanel{
 
         opcionesDificultad = new ButtonGroup(); 
 
-        botonDificultadFacil = new JRadioButton("Fácil", true);
+        botonDificultadFacil = new JRadioButton("Facil", true);
         botonDificultadFacil.setFont(font);
         opcionesDificultad.add(botonDificultadFacil);
 
@@ -46,7 +46,7 @@ public class PanelSuperior extends JPanel{
         botonDificultadFacil.setFont(font);
         opcionesDificultad.add(botonDificultadMedia);
 
-        botonDificultadDura = new JRadioButton("Difícil");
+        botonDificultadDura = new JRadioButton("Dificil");
         botonDificultadFacil.setFont(font);
         opcionesDificultad.add(botonDificultadDura);
 
