@@ -1,13 +1,13 @@
-package uniandes.dpoo.taller7.interfaz2.interfazLuces;
+package uniandes.dpoo.taller7.interfaz3.interfazLuces;
 
 import javax.swing.JFrame;
 import java.awt.BorderLayout;
 
 
 
-import uniandes.dpoo.taller7.interfaz2.PanelSuperior;
-import uniandes.dpoo.taller7.interfaz2.PanelOpcionesDerecha;
-import uniandes.dpoo.taller7.interfaz2.PanelInferior;
+import uniandes.dpoo.taller7.interfaz3.PanelSuperior;
+import uniandes.dpoo.taller7.interfaz3.PanelOpcionesDerecha;
+import uniandes.dpoo.taller7.interfaz3.PanelInferior;
 
 
 public class InterfazLuces extends JFrame {

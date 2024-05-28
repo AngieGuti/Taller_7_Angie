@@ -1,4 +1,4 @@
-package uniandes.dpoo.taller7.interfaz2;
+package uniandes.dpoo.taller7.interfaz3;
 
 import java.awt.FlowLayout;
 

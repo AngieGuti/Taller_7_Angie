@@ -1,4 +1,4 @@
-package uniandes.dpoo.taller7.interfaz2;
+package uniandes.dpoo.taller7.interfaz3;
 
 import javax.swing.JPanel;
 
@@ -7,6 +7,7 @@ import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JRadioButton;
 
+import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
 
@@ -24,11 +25,14 @@ public class PanelSuperior extends JPanel{
 
     public PanelSuperior() {
         Font font = new Font("Comic Sans MS", Font.BOLD,12);
-        tamanioLabel = new JLabel("Tamaño del tablero:");
+        tamanioLabel = new JLabel("Tamanio del tablero:");
         tamanioLabel.setFont(font);
 
         dificultadLabel = new JLabel("Dificultad:");
 		dificultadLabel.setFont(font);
+        dificultadLabel.setForeground(Color.BLACK);
+        dificultadLabel.setBackground(Color.WHITE);
+        dificultadLabel.setOpaque(true);
 
 
         String[] tamanios = new String[] {"3x3", "5x5", "7x7", "9x9", "10x10"};
@@ -38,7 +42,7 @@ public class PanelSuperior extends JPanel{
 
         opcionesDificultad = new ButtonGroup(); 
 
-        botonDificultadFacil = new JRadioButton("Fácil", true);
+        botonDificultadFacil = new JRadioButton("Facil", true);
         botonDificultadFacil.setFont(font);
         opcionesDificultad.add(botonDificultadFacil);
 
@@ -46,7 +50,7 @@ public class PanelSuperior extends JPanel{
         botonDificultadFacil.setFont(font);
         opcionesDificultad.add(botonDificultadMedia);
 
-        botonDificultadDura = new JRadioButton("Difícil");
+        botonDificultadDura = new JRadioButton("Dificil");
         botonDificultadFacil.setFont(font);
         opcionesDificultad.add(botonDificultadDura);
 
